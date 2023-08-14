@@ -21,7 +21,6 @@ body {
 }
 
 header {
-  align-self: flex-start;
   height: 125px;
   width: 100vw;
   background-color: #121212;
@@ -29,22 +28,19 @@ header {
 }
 
 .main {
-  align-self: center;
   height: 480px;
-  width: 100vw;
+  width: 100%;
   background-color: #121212;
 }
 
 .main2 {
-  align-self: center;
   height: 100%;
-  width: 100vw;
+  width: 100%;
   background-color: rgb(158, 119, 70);
 }
 
 footer {
-  align-self: flex-end;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   background-color: #000;
 }
@@ -105,11 +101,11 @@ nav.menu .menu-list {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  height: 480px;
   position: relative;
 }
 
 .mnet-inner {
+  width: 100%;
   padding-top: 80px;
   padding-bottom: 120px;
 }
@@ -140,14 +136,12 @@ nav.menu .menu-list {
 
 .main2 {
   background-color: #ffffff;
-  padding-bottom: 120px;
   position: relative;
   height: 1400px;
 }
 
 .fea-ctnr {
   width: 100%;
-  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -203,7 +197,7 @@ footer .content {
   background-color: #000;
   width: 1400px;
   margin: 0 auto;
-  height: 750px;
+  height: 100%;
   position: relative;
 }
 

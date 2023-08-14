@@ -199,19 +199,18 @@ footer .content {
   position: relative;
 }
 
-.content .top-map {
+footer .content .foot-map {
   position: absolute;
   display: flex;
-  justify-content: flex-start;
 }
 
-.top-map li,
+.foot-map li,
 span {
   color: white;
   padding: 15px 5px;
 }
 
-.top-sitemap {
+.sitemap {
   width: 100%;
   height: 80px;
 }
